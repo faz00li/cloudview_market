@@ -4,18 +4,18 @@ import StaffMember from './StaffMember';
 var marketStaff = [  
   {  
      name: "Andy",
-     picture: "Lents International",
-     description: "Lorem ipsum dolor, sit amet consectetur adipisicing el"
+     description: "Lorem ipsum dolor, sit amet consectetur adipisicing el",
+     picture: "../assets/images/andy.jpg"
   },
   {  
-    name: "Andy",
-    picture: "Lents International",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing el"
+    name: "Bobby",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing el",
+     picture: "../assets/images/bobby.jpg"
   },
   {  
-    name: "Andy",
-    picture: "Lents International",
-    description: "Lorem ipsum dolor, sit amet consectetur adipisicing el"
+    name: "Cody",
+    description: "Lorem ipsum dolor, sit amet consectetur adipisicing el",
+     picture: "../assets/images/cody.jpg"
   }
 ];
 
@@ -25,9 +25,10 @@ function AboutUs(){
       <h1>About Us</h1>
       <hr />
       { marketStaff.map((staffMember, index) =>
-        <StaffMember name={staffMember.name}
-          description={staffMember.description}
-          pictureURL={staffMember.pictureURL} />
+        <StaffMember name = {staffMember.name}
+          description = {staffMember.description}
+          pictureURL = {staffMember.pictureURL}
+          key = {index} />
         )}
     </div>
   );

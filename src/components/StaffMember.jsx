@@ -1,14 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-//import Picture from {pictureURL}
 
 function StaffMember(props){
   return (
     <div>
       <h3>{props.name}</h3>
       <p>{props.description}</p>
-      <p>{props.pictureURL}</p>
-      {/* <img src={Picture}/> */}
+      <img src={props.pictureURL}/>
       
       <hr/>
     </div>

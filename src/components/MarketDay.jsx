@@ -4,17 +4,20 @@ import PropTypes from "prop-types";
 function MarketDay(props){
   return (
     <div>
-      <h1>MarketDay</h1>
       <h3>{props.day}</h3>
-      <p><em>{props.location}</em></p>
+      <p>{props.location}</p>
+      <p>{props.hours}</p>
+      <p>{props.booth}</p>
       <hr/>
     </div>
   );
 }
 
 MarketDay.propTypes = {
-  day: PropTypes.string.isRequired,
-  location: PropTypes.string.isRequired
+  day: PropTypes.string,
+  location: PropTypes.string,
+  hours: PropTypes.string,
+  booth: PropTypes.string
 };
 
 export default MarketDay;

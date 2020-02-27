@@ -39,9 +39,7 @@ var marketSchedule = [
      booth: "9G"
   }
  ];
-
-
-
+ 
 function WeeklySchedule(){
   return (
     <div>

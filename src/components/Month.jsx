@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 function Month(props)
 {
   return (
-    <div>
+    <div className="col-sm">
       <h3>{props.month}</h3>
       <ul>
         {props.selection.map((crop) =>

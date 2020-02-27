@@ -275,8 +275,6 @@ var availableProduceJASOND = availableProduce.slice(6,13);
 
 function SeasonalCrops(){
   return (
-
-    
     <div>
       <h1>Seasonal Crops</h1>
       <hr />

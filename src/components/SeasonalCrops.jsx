@@ -270,16 +270,29 @@ const availableProduce = [
   }
 ];
 
+var availableProduceJFMAMJ = availableProduce.slice(0,6);
+var availableProduceJASOND = availableProduce.slice(6,13);
+
 function SeasonalCrops(){
   return (
+
+    
     <div>
       <h1>Seasonal Crops</h1>
       <hr />
-
-      { availableProduce.map((monthList, index) =>
-      <Month month = {monthList.month}
-        selection = {monthList.selection} />
-      )}
+      
+      <div className = "row">
+        { availableProduceJFMAMJ.map((monthList, index) =>
+        <Month month = {monthList.month}
+          selection = {monthList.selection} />
+        )}
+      </div>
+      <div className = "row">
+        { availableProduceJASOND.map((monthList, index) =>
+        <Month month = {monthList.month}
+          selection = {monthList.selection} />
+        )}
+      </div>
     </div>
   );
 }

@@ -8,7 +8,7 @@ function Main() {
         
       `}</style>
        
-       <p>hello</p>
+       <h1>Main</h1>
  
     </div>
   );

@@ -25,9 +25,8 @@ function Navbar() {
             <ul className="list-inline  mt-4">	
               <li className="list-inline-item mx-5"> <Link to="/">Home</Link></li>
               <li className="list-inline-item mx-5"> <Link to="/Schedule">Weekly Schedule</Link></li>
-              <li className="list-inline-item mx-5"> <Link to="/">Seasonal Crops</Link></li>
-              <li className="list-inline-item mx-5"> <Link to="/">Our Crops</Link></li>
-              <li className="list-inline-item mx-5"> <Link to="/">About Us</Link></li>
+              <li className="list-inline-item mx-5"> <Link to="/seasons">Seasonal Crops</Link></li>
+              <li className="list-inline-item mx-5"> <Link to="/about">About Us</Link></li>
             </ul>		   
           </div>
         </div>

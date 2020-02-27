@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function WeeklySchedule(props){
   return (
     <div>
-      <h1>WeeklySchedule</h1>
+      <h1>Weekly Schedule</h1>
       {/* will need map */}
       <hr/>
     </div>

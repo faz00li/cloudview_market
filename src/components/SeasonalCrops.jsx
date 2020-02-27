@@ -3,7 +3,7 @@ import React from "react";
 function SeasonalCrops(){
   return (
     <div>
-      <p>SeasonalCrops</p>
+      <h1>Seasonal Crops</h1>
       {/* will need map of crops and seasons */}
     </div>
   );

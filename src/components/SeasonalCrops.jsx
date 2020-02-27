@@ -281,14 +281,16 @@ function SeasonalCrops(){
       
       <div className = "row">
         { availableProduceJFMAMJ.map((monthList, index) =>
-        <Month month = {monthList.month}
-          selection = {monthList.selection} />
+          <Month month = {monthList.month}
+            selection = {monthList.selection}
+            key = {index} />
         )}
       </div>
       <div className = "row">
         { availableProduceJASOND.map((monthList, index) =>
-        <Month month = {monthList.month}
-          selection = {monthList.selection} />
+          <Month month = {monthList.month}
+            selection = {monthList.selection}
+            key = {index} />
         )}
       </div>
     </div>

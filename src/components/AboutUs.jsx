@@ -4,18 +4,18 @@ import StaffMember from './StaffMember';
 var marketStaff = [  
   {  
      name: "Andy",
-     description: "Lorem ipsum dolor, sit amet consectetur adipisicing el",
-     picture: "../assets/images/andy.jpg"
+     description: "/Lorem ipsum dolor, sit amet consectetur adipisicing el/ef.jpg",
+     pictureURL: require("../assets/images/andy.jpg")
   },
   {  
     name: "Bobby",
     description: "Lorem ipsum dolor, sit amet consectetur adipisicing el",
-     picture: "../assets/images/bobby.jpg"
+     pictureURL: require("../assets/images/bobby.jpg")
   },
   {  
     name: "Cody",
     description: "Lorem ipsum dolor, sit amet consectetur adipisicing el",
-     picture: "../assets/images/cody.jpg"
+     pictureURL: require("../assets/images/cody.jpg")
   }
 ];
 
